@@ -42,13 +42,17 @@ public class Conta {
         return saldo;
     }
 
+    public void setSaldo(double newSaldo) {
+        this.saldo = newSaldo;
+    }
+
     @Override
     public String toString() {
-        return "Conta{" +
-                "numero='" + numero + '\'' +
-                ", agencia='" + agencia + '\'' +
-                ", nome='" + nome + '\'' +
-                ", saldo=" + saldo +
-                '}';
+        return "Conta{"
+                + "numero='" + numero + '\''
+                + ", agencia='" + agencia + '\''
+                + ", nome='" + nome + '\''
+                + ", saldo=" + saldo
+                + '}';
     }
 }
